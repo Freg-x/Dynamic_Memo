@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Memory_management</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+
+
+</head>
+
+<body>
+
+  <h1 id="title">动态内存分配的管理</h1>
+
+  <div id="main_memo">
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div class="guide">
+    <div>0kB</div>
+    <div>160kB</div>
+    <div>320kB</div>
+    <div>480kB</div>
+    <div>640kB</div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="add">
+
+    <div id="algorithm_outside">
+      本次插入使用的算法:&nbsp;&nbsp;<select id="algorithm">
+        <option value="0">首次适应算法</option>
+        <option value="1">最佳适应算法</option>
+      </select>
+    </div>
+
+
+    <div id="input">
+      内存块大小: <input type="text" value="100" id="size" maxlength="3"> kB
+    </div>
+
+    <div class="button" id="create">生成</div>
+
+  </div>
+
+
+  <div id="info">
+    <p>内存的状态将在此实时更新</p>
+    <p>滑动滚动条查看历史状态</p>
+  </div>
+
+
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js">
+
+  </script>
+
+</body>
+
+</html>

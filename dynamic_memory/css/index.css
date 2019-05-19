@@ -1,0 +1,110 @@
+#title {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+}
+
+#main_memo {
+  position: relative;
+  width: 1280px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid grey;
+  background-color: rgb(199, 197, 197);
+}
+
+.mission {
+  position: absolute;
+  top: 0px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 150px;
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.description {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.delete {
+  color: white;
+  height: 30px;
+}
+
+.delete:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.guide {
+  width: 1280px;
+  height: 15px;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 6px;
+}
+
+.add {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#algorithm {
+  font-size: 16px;
+}
+
+#size {
+  font-size: 20px;
+  width: 40px;
+}
+
+.button {
+  background-color: gray;
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+#info {
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: rgb(65, 65, 65);
+  height: 70px;
+  width: 400px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
